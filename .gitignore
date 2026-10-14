@@ -1,0 +1,24 @@
+# Build artifacts and binaries
+*.exe
+*.out
+*.o
+
+# Root compiled binaries (uncomment if compiling in root, but don't ignore directories)
+/tracker.exe
+/client.exe
+
+# Logs and runtime files
+*.log
+wal_*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ensure source directories are never ignored
+!Tracker/
+!Client/
+!Tracker/**
+!Client/**
